@@ -188,6 +188,7 @@ class Homey extends StatelessWidget {
      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
+          print('You pressed the FAB!');
           Fluttertoast.showToast(
               msg: "Yeah, you heard the cat! 😾",
               toastLength: Toast.LENGTH_SHORT,
