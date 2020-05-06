@@ -5,7 +5,7 @@ import 'package:chronograph/pages/home.dart';
 
 void main() => runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
-  initialRoute: '/home',
+  //initialRoute: '/home',
   routes: {
     '/':(context){ return Loading();},
     '/home':(context){return Home();},
