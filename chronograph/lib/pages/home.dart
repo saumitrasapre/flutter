@@ -37,6 +37,7 @@ class _HomeState extends State<Home> {
     data=data.isEmpty? ModalRoute.of(context).settings.arguments : data;
     print(data);
 
+    //set background
     String bgImagechooser=data['eventOfDay'];
     String bgImage;
     Color bgColor;

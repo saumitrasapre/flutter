@@ -8,7 +8,7 @@ class WorldTime{
   String time;//time in that location
   String flag; //url to a flag icon
   String url;//location url for API endpoint
-  String eventOfDay;//decides if morning,eveninng,night,etc
+  String eventOfDay;//decides if morning,evening,night,etc
 
   WorldTime({this.location, this.flag, this.url});
 
@@ -32,7 +32,7 @@ class WorldTime{
       //create dateTime object
       DateTime now=DateTime.parse(dateTime);
       now=now.add(Duration(hours: int.parse(offsetHours),minutes: int.parse(offsetMinutes)));
-      print(now.hour);
+      //print(now.hour);
       //set the time property
       //isDaytime=now.hour>6 && now.hour<20 ? true : false;
       if(4<=now.hour && now.hour<=5)
